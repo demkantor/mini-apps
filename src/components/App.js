@@ -12,10 +12,12 @@ class App extends Component {
       <>
         <Router>
           <Nav />
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/color-flipper" component={ColorFlip}/>
-          </Switch>
+          <div className="main-wrapper">
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route exact path="/color-flipper" component={ColorFlip}/>
+            </Switch>
+          </div>
         </Router>
       </>
     )

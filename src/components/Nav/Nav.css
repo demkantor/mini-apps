@@ -1,0 +1,84 @@
+:root {
+    --text-primary: #f5f5f5;
+    --bg-primary: #009879;
+    --bg-secondary: #008C71;
+    --bg-teritary: #007D65;
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+  
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: -10.6em;
+    width: 15em;
+    height: 100%;
+    background: var(--bg-primary);
+    border-right: .1em solid var(--bg-secondary);
+    box-shadow: 0 0 .8em .4em #000040;
+    transition: width 600ms ease;
+}
+
+.nav-open {
+    left: 0;
+    transition: width 600ms ease;
+}
+
+.navbar__link {
+    display: flex;
+    align-items: center;
+    float: right;
+    width: 100%;
+    justify-content: flex-end;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 1em;
+    font-weight: bold;
+    font-size: .8rem;
+    border-bottom: .1em solid var(--bg-primary);
+}
+
+.navbar__link .material-icons {
+    margin-left: 1em;
+    margin-right: .2em;
+}
+
+.navbar__link:active, .navbar__link:hover {
+    background: var(--bg-teritary);
+}
+
+.nav-menu {
+    float: right;
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+    width: 4em;
+    height: 3em;
+    border: none;
+    border-bottom: .1em solid var(--bg-primary);
+    box-sizing: border-box;
+}
+
+.nav-menu:hover {
+    background: var(--bg-teritary);
+}

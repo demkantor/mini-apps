@@ -1,0 +1,21 @@
+/*
+==============
+Counter Styles
+==============
+*/
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.btn {
+  margin: 0.5rem;
+}

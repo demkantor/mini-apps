@@ -44,10 +44,16 @@ class Nav extends Component {
                         invert_colors
                     </span> 
                 </Link>
-                <Link to="/" className="navbar__link">
+                <Link to="/counter" className="navbar__link">
                     Counter
                     <span className="material-icons">
                         addchart
+                    </span> 
+                </Link>
+                <Link to="/review" className="navbar__link">
+                    Reviews
+                    <span className="material-icons">
+                        rate_review
                     </span> 
                 </Link>
                 <Link to="/" className="navbar__link">

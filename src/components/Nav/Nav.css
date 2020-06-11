@@ -36,7 +36,7 @@
     height: 100%;
     background: var(--bg-primary);
     border-right: .1em solid var(--bg-secondary);
-    box-shadow: 0 0 .8em .4em #000040;
+    box-shadow: 0 0 .8em .2em #00002c;
     transition: width 600ms ease;
 }
 

@@ -11,14 +11,14 @@ class Nav extends Component {
     toggleOpen = () => {
         this.setState({ open: !this.state.open });
         document.querySelector('.navbar').classList.toggle('nav-open');
-
-    }
+    };
 
 
     render() {
         return (
             <div className="navbar">
                 <button className="nav-menu" onClick={this.toggleOpen}>
+
                     {this.state.open
                     ?
                     <span className="material-icons">
@@ -35,8 +35,7 @@ class Nav extends Component {
                     Home
                     <span className="material-icons">
                         home
-                    </span> 
-                        
+                    </span>   
                 </Link>
                 <Link to="/color-flipper" className="navbar__link">
                     Color Flipper
@@ -66,6 +65,12 @@ class Nav extends Component {
                     Sidebar
                     <span className="material-icons">
                         more_vert
+                    </span> 
+                </Link>
+                <Link to="/modal" className="navbar__link">
+                    Modal Project
+                    <span className="material-icons">
+                        launch
                     </span> 
                 </Link>
                 <Link to="/" className="navbar__link">

@@ -10,7 +10,6 @@ class SidebarExample extends Component {
         sidebar.classList.toggle('show-sidebar');
     };
 
-
     render() {
         return (
             <div className="side-example-container">

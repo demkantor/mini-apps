@@ -9,6 +9,7 @@ import Counter from './Counter/Counter';
 import Reviews from './Reviews/Reviews';
 import NavExample from './NavExample/NavExample';
 import SidebarExample from './SidebarExample/SidebarExample';
+import Modal from './Modal/Modal';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
               <Route exact path="/reviews" component={Reviews}/>
               <Route exact path="/navbar" component={NavExample}/>
               <Route exact path="/sidebar" component={SidebarExample}/>
+              <Route exact path="/modal" component={Modal}/>
             </Switch>
           </div>
         </Router>

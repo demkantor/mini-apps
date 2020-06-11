@@ -44,8 +44,8 @@ class ColorFlip extends Component {
 
         return (
             <>
-                <nav>
-                    <div className="nav-center">
+                <nav className="nav">
+                    <div className="nav-centered">
                         <h4>Color Flipper</h4>
                         <ul className="nav-links">
                             <li onClick={this.openSimple}>

@@ -56,6 +56,18 @@ class Nav extends Component {
                         rate_review
                     </span> 
                 </Link>
+                <Link to="/navbar" className="navbar__link">
+                    Navbar
+                    <span className="material-icons">
+                        more_horiz
+                    </span> 
+                </Link>
+                <Link to="/sidebar" className="navbar__link">
+                    Sidebar
+                    <span className="material-icons">
+                        more_vert
+                    </span> 
+                </Link>
                 <Link to="/" className="navbar__link">
                     Cart
                     <span className="material-icons">

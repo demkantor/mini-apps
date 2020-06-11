@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import ColorFlip from './ColorFlip/ColorFlip';
 import Counter from './Counter/Counter';
 import Reviews from './Reviews/Reviews';
+import NavExample from './NavExample/NavExample';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
               <Route exact path="/color-flipper" component={ColorFlip}/>
               <Route exact path="/counter" component={Counter}/>
               <Route exact path="/reviews" component={Reviews}/>
+              <Route exact path="/navbar" component={NavExample}/>
             </Switch>
           </div>
         </Router>

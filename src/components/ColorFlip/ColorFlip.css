@@ -3,14 +3,14 @@
 Top Nav Styles
 ==============
 */
-nav {
+.nav {
   background: var(--clr-white);
   height: 3rem;
   display: grid;
   align-items: center;
   box-shadow: var(--dark-shadow);
 }
-.nav-center {
+.nav-centered {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
@@ -18,14 +18,14 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.nav-center h4 {
+.nav-centered h4 {
   margin-bottom: 0;
   color: var(--clr-primary-5);
 }
 .nav-links {
   display: flex;
 }
-nav a {
+.nav a {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 1rem;
@@ -33,7 +33,7 @@ nav a {
   letter-spacing: var(--spacing);
   margin-right: 1rem;
 }
-nav a:hover {
+.nav a:hover {
   color: var(--clr-primary-5);
 }
 /*

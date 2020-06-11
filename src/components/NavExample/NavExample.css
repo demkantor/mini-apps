@@ -3,9 +3,14 @@
 Navbar Example Styles
 =====================
 */
-/* .example-container {
-    position: relative;
-} */
+.nav-example-container {
+    position:relative;
+    margin: 5vh 5vw 5vh 5vw;
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid black;
+}
+
 nav {
     background: var(--clr-white);
     box-shadow: var(--light-shadow);

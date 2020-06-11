@@ -10,7 +10,7 @@ class NavExample extends Component {
 
     render() {
         return (
-            // <div className="example-container">
+            <div className="nav-example-container">
                 <nav>
                     <div className="nav-center">
                         <div className="nav-header">
@@ -62,7 +62,7 @@ class NavExample extends Component {
                         </ul>
                     </div>
                 </nav>
-            // </div>
+            </div>
             
         )
     }

@@ -60,7 +60,7 @@ class ColorFlip extends Component {
                 </nav>
                 <main>
                     <div className="container">
-                        <h2>
+                        <h2 className="container2">
                             Background Color: &nbsp;
                             <span className="color">
                                 {this.state.current}

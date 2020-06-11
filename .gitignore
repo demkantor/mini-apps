@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# fontawesome folder
+src/components/Reviews/fontawesome-free-5.12.0-web

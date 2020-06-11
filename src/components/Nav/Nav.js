@@ -50,7 +50,7 @@ class Nav extends Component {
                         addchart
                     </span> 
                 </Link>
-                <Link to="/review" className="navbar__link">
+                <Link to="/reviews" className="navbar__link">
                     Reviews
                     <span className="material-icons">
                         rate_review

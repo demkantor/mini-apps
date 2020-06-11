@@ -73,6 +73,12 @@ class Nav extends Component {
                         launch
                     </span> 
                 </Link>
+                <Link to="/questions" className="navbar__link">
+                    General Questions
+                    <span className="material-icons">
+                        contact_support
+                    </span> 
+                </Link>
                 <Link to="/" className="navbar__link">
                     Cart
                     <span className="material-icons">

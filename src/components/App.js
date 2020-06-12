@@ -12,6 +12,8 @@ import SidebarExample from './SidebarExample/SidebarExample';
 import Modal from './Modal/Modal';
 import Questions from './Questions/Questions';
 import Menu from './Menu/Menu';
+import Video from './Video/Video';
+
 
 class App extends Component {
   render() {
@@ -30,7 +32,7 @@ class App extends Component {
               <Route exact path="/modal" component={Modal}/>
               <Route exact path="/questions" component={Questions}/>
               <Route exact path="/menu" component={Menu}/>
-
+              <Route exact path="/video" component={Video}/>
 
               {/* 404 page */}
               <Route render={() => 

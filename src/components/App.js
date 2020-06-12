@@ -11,6 +11,7 @@ import NavExample from './NavExample/NavExample';
 import SidebarExample from './SidebarExample/SidebarExample';
 import Modal from './Modal/Modal';
 import Questions from './Questions/Questions';
+import Menu from './Menu/Menu';
 
 class App extends Component {
   render() {
@@ -28,6 +29,8 @@ class App extends Component {
               <Route exact path="/sidebar" component={SidebarExample}/>
               <Route exact path="/modal" component={Modal}/>
               <Route exact path="/questions" component={Questions}/>
+              <Route exact path="/menu" component={Menu}/>
+
 
               {/* 404 page */}
               <Route render={() => 
@@ -35,6 +38,7 @@ class App extends Component {
                   <h1>Lost? Me too...</h1>
                 </div>
               }/>
+
             </Switch>
           </div>
         </Router>

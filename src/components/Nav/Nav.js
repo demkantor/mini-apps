@@ -79,10 +79,52 @@ class Nav extends Component {
                         contact_support
                     </span> 
                 </Link>
-                <Link to="/" className="navbar__link">
-                    Cart
+                <Link to="/menu" className="navbar__link">
+                    Restraunt Menu
                     <span className="material-icons">
-                        shopping_cart
+                        menu_book
+                    </span> 
+                </Link>
+                <Link to="/video" className="navbar__link">
+                    Video Project
+                    <span className="material-icons">
+                        movie
+                    </span> 
+                </Link>
+                <Link to="/scroll" className="navbar__link">
+                    Scrolling Project
+                    <span className="material-icons">
+                        control_camera
+                    </span> 
+                </Link>
+                <Link to="/tab" className="navbar__link">
+                    Tab Project
+                    <span className="material-icons">
+                        tab
+                    </span> 
+                </Link>
+                <Link to="/timer" className="navbar__link">
+                    Timer
+                    <span className="material-icons">
+                        timer
+                    </span> 
+                </Link>
+                <Link to="/lorem" className="navbar__link">
+                    Lorem Ipsum
+                    <span className="material-icons">
+                        create
+                    </span> 
+                </Link>
+                <Link to="/to-do" className="navbar__link">
+                    To Do List
+                    <span className="material-icons">
+                        list_alt
+                    </span> 
+                </Link>
+                <Link to="/slider" className="navbar__link">
+                    Slider
+                    <span className="material-icons">
+                        linear_scale
                     </span> 
                 </Link>
             </div>

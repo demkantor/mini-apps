@@ -42,6 +42,7 @@ Variables
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
+  --clr-secondary: hsla(182, 63%, 54%);
   --clr-gold: #c59d5f;
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
@@ -67,12 +68,17 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  scroll-behavior: smooth
 }
 ul {
   list-style-type: none;
@@ -160,6 +166,12 @@ p {
 .btn-hero {
   font-size: 1rem;
   padding: 0.75rem 1.25rem;
+}
+.btn-white {
+  color: var(--clr-white);
+  border-color: var(--clr-white);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
 }
 /* section */
 .section {

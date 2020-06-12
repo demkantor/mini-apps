@@ -8,6 +8,11 @@ class Nav extends Component {
         open: false
     };
 
+    close =() => {
+        this.setState({ open: false });
+        document.querySelector('.navbar').classList.remove('nav-open');
+    }
+
     toggleOpen = () => {
         this.setState({ open: !this.state.open });
         document.querySelector('.navbar').classList.toggle('nav-open');
@@ -31,97 +36,97 @@ class Nav extends Component {
                     }
                     
                 </button>
-                <Link to="/" className="navbar__link">
+                <Link to="/" className="navbar__link" onClick={this.close}>
                     Home
                     <span className="material-icons">
                         home
                     </span>   
                 </Link>
-                <Link to="/color-flipper" className="navbar__link">
+                <Link to="/color-flipper" className="navbar__link" onClick={this.close}>
                     Color Flipper
                     <span className="material-icons">
                         invert_colors
                     </span> 
                 </Link>
-                <Link to="/counter" className="navbar__link">
+                <Link to="/counter" className="navbar__link" onClick={this.close}>
                     Counter
                     <span className="material-icons">
                         addchart
                     </span> 
                 </Link>
-                <Link to="/reviews" className="navbar__link">
+                <Link to="/reviews" className="navbar__link" onClick={this.close}>
                     Review Cards
                     <span className="material-icons">
                         rate_review
                     </span> 
                 </Link>
-                <Link to="/navbar" className="navbar__link">
+                <Link to="/navbar" className="navbar__link" onClick={this.close}>
                     Navbar
                     <span className="material-icons">
                         more_horiz
                     </span> 
                 </Link>
-                <Link to="/sidebar" className="navbar__link">
+                <Link to="/sidebar" className="navbar__link" onClick={this.close}>
                     Sidebar
                     <span className="material-icons">
                         more_vert
                     </span> 
                 </Link>
-                <Link to="/modal" className="navbar__link">
+                <Link to="/modal" className="navbar__link" onClick={this.close}>
                     Modal Project
                     <span className="material-icons">
                         launch
                     </span> 
                 </Link>
-                <Link to="/questions" className="navbar__link">
+                <Link to="/questions" className="navbar__link" onClick={this.close}>
                     General Questions
                     <span className="material-icons">
                         contact_support
                     </span> 
                 </Link>
-                <Link to="/menu" className="navbar__link">
+                <Link to="/menu" className="navbar__link" onClick={this.close}>
                     Restraunt Menu
                     <span className="material-icons">
                         menu_book
                     </span> 
                 </Link>
-                <Link to="/video" className="navbar__link">
+                <Link to="/video" className="navbar__link" onClick={this.close}>
                     Video Project
                     <span className="material-icons">
                         movie
                     </span> 
                 </Link>
-                <Link to="/scroll" className="navbar__link">
-                    Scrolling Project
+                <Link to="/scroll" className="navbar__link" onClick={this.close}>
+                    Scrolling Demo
                     <span className="material-icons">
                         control_camera
                     </span> 
                 </Link>
-                <Link to="/tab" className="navbar__link">
-                    Tab Project
+                <Link to="/tabs" className="navbar__link" onClick={this.close}>
+                    Tabs Demo Project
                     <span className="material-icons">
                         tab
                     </span> 
                 </Link>
-                <Link to="/timer" className="navbar__link">
+                <Link to="/timer" className="navbar__link" onClick={this.close}>
                     Timer
                     <span className="material-icons">
                         timer
                     </span> 
                 </Link>
-                <Link to="/lorem" className="navbar__link">
+                <Link to="/lorem" className="navbar__link" onClick={this.close}>
                     Lorem Ipsum
                     <span className="material-icons">
                         create
                     </span> 
                 </Link>
-                <Link to="/to-do" className="navbar__link">
+                <Link to="/to-do" className="navbar__link" onClick={this.close}>
                     To Do List
                     <span className="material-icons">
                         list_alt
                     </span> 
                 </Link>
-                <Link to="/slider" className="navbar__link">
+                <Link to="/slider" className="navbar__link" onClick={this.close}>
                     Slider
                     <span className="material-icons">
                         linear_scale

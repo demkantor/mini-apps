@@ -5,7 +5,6 @@ import './App.css';
 import Home from './Home/Home';
 import Nav from './Nav/Nav';
 
-
 import ColorFlip from './ColorFlip/ColorFlip';
 import Counter from './Counter/Counter';
 import Menu from './Menu/Menu';
@@ -15,6 +14,7 @@ import Questions from './Questions/Questions';
 import Reviews from './Reviews/Reviews';
 import Scroll from './Scroll/Scroll';
 import SidebarExample from './SidebarExample/SidebarExample';
+import Tabs from './Tabs/Tabs';
 import Video from './Video/Video';
 
 
@@ -37,6 +37,7 @@ class App extends Component {
               <Route exact path="/reviews" component={Reviews}/>
               <Route exact path="/scroll" component={Scroll}/>
               <Route exact path="/sidebar" component={SidebarExample}/>
+              <Route exact path="/tabs" component={Tabs}/>
               <Route exact path="/video" component={Video}/>
 
               {/* 404 page */}

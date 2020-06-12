@@ -37,12 +37,13 @@
     background: var(--bg-primary);
     border-right: .1em solid var(--bg-secondary);
     box-shadow: 0 0 .8em .2em #00002c;
-    transition: width 600ms ease;
+    transition: var(--transition-secondary);
+    z-index: 100;
 }
 
 .nav-open {
     left: 0;
-    transition: width 600ms ease;
+    transition: var(--transition-secondary);
 }
 
 .navbar__link {

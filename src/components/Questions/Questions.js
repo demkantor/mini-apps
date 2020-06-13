@@ -31,7 +31,7 @@ class Questions extends Component {
                 <div className="q-title">
                     <h2>General questions</h2>
                 </div>
-                <div className="section-center">
+                <div className="q-section-center">
                     {this.state.questions.map((question, i) => (
                         <article className="question" key={i}>
                             <div className="question-title">

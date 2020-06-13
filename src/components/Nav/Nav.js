@@ -61,13 +61,13 @@ class Nav extends Component {
                     </span> 
                 </Link>
                 <Link to="/navbar" className="navbar__link" onClick={this.close}>
-                    Navbar
+                    Navbar Demo
                     <span className="material-icons">
                         more_horiz
                     </span> 
                 </Link>
                 <Link to="/sidebar" className="navbar__link" onClick={this.close}>
-                    Sidebar
+                    Sidebar Demo
                     <span className="material-icons">
                         more_vert
                     </span> 
@@ -109,7 +109,7 @@ class Nav extends Component {
                     </span> 
                 </Link>
                 <Link to="/timer" className="navbar__link" onClick={this.close}>
-                    Timer
+                    Countdown Timer
                     <span className="material-icons">
                         timer
                     </span> 

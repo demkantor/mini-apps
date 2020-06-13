@@ -14,8 +14,9 @@ Questions Styles
     text-align: center;
 }
 
-.section-center {
+.q-section-center {
     max-width: var(--fixed-width);
+    margin: 0 auto;
 }
 
 .question {

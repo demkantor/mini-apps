@@ -199,4 +199,5 @@ main {
 /* switch to sidebar nav */
 .main-wrapper {
     margin-left: 4.4em;
+    overflow: hidden;
 }

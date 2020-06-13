@@ -120,10 +120,10 @@ class Nav extends Component {
                         create
                     </span> 
                 </Link>
-                <Link to="/to-do" className="navbar__link" onClick={this.close}>
-                    To Do List
+                <Link to="/shop" className="navbar__link" onClick={this.close}>
+                    Shopping List
                     <span className="material-icons">
-                        list_alt
+                        add_shopping_cart
                     </span> 
                 </Link>
                 <Link to="/slider" className="navbar__link" onClick={this.close}>

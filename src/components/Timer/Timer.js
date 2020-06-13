@@ -41,8 +41,16 @@ class Timer extends Component {
     };
 
     componentDidMount = () => {
+        // set date eight days from now
+        let tempDate = new Date();
+        let tempYear = tempDate.getFullYear();
+        let tempMonth = tempDate.getMonth();
+        let tempDay = tempDate.getDate();
+
+        
+        let futureDate = new Date(tempYear, tempMonth, tempDay + 8, 12, 30, 0);
+
         // set countdown date
-        let futureDate = new Date(2020,8,25,12,30,0);
         const year = futureDate.getFullYear();
         const hours = futureDate.getHours();
         const mins = futureDate.getMinutes();

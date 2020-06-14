@@ -108,12 +108,7 @@ class Menu extends Component {
         // check button data-id and filter menu items to be displayed
         const type = event.target.dataset.id;
         let list = this.state.menu;
-        let filteredList = list.filter((item) => {
-            if (item.category === type) {
-                return item;
-            }
-            return console.log('keeping the linter happy');
-        });
+        let filteredList = list.filter((item) => item.category === type);
         this.setState({ filteredMenu: filteredList });
     };
 

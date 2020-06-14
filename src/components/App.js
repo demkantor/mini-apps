@@ -16,6 +16,7 @@ import Reviews from './Reviews/Reviews';
 import Scroll from './Scroll/Scroll';
 import Shop from './Shop/Shop';
 import SidebarExample from './SidebarExample/SidebarExample';
+import Slider from './Slider/Slider';
 import Tabs from './Tabs/Tabs';
 import Timer from './Timer/Timer';
 import Video from './Video/Video';
@@ -42,6 +43,7 @@ class App extends Component {
               <Route exact path="/scroll" component={Scroll}/>
               <Route exact path="/shop" component={Shop}/>
               <Route exact path="/sidebar" component={SidebarExample}/>
+              <Route exact path="/slider" component={Slider}/>
               <Route exact path="/tabs" component={Tabs}/>
               <Route exact path="/timer" component={Timer}/>
               <Route exact path="/video" component={Video}/>

@@ -7,7 +7,7 @@ class Video extends Component {
         // give a short preloader before video starts
         const preloader = document.querySelector('.preloader');
         setTimeout(() => preloader.classList.add('hide-preloader'), 300);
-    }
+    };
 
     togglePlay = () => {
         const video = document.querySelector('.video-container');

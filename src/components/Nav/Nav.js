@@ -8,10 +8,10 @@ class Nav extends Component {
         open: false
     };
 
-    close =() => {
+    close = () => {
         this.setState({ open: false });
         document.querySelector('.navbar').classList.remove('nav-open');
-    }
+    };
 
     toggleOpen = () => {
         this.setState({ open: !this.state.open });

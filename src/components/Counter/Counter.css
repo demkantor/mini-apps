@@ -6,10 +6,12 @@ Counter Styles
 .container {
   text-align: center;
 }
+
 #value {
   font-size: 6rem;
   font-weight: bold;
 }
+
 .btn {
   margin: 0.5rem;
 }

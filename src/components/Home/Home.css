@@ -1,0 +1,62 @@
+/*
+==================
+Home Screen Styles
+==================
+*/
+
+.home-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home-section-center{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-auto-rows: minmax(15rem, auto);
+    gap: 2.5rem 2rem;
+    justify-items: center;
+}
+
+.home-image-container {
+    position: relative;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.home-image-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-7);
+    position: absolute;
+    top: -0.25rem;
+    right: -.95rem;
+    border-radius: 10%;
+    z-index: 1;
+}
+
+.home-image-container > * {
+    z-index: 2;
+}
+
+.static-img {
+    position:absolute;
+    transition: var(--transition-secondary);
+    border-radius: 10%;
+    width: 100%;
+}
+
+.static-img:hover {
+    opacity: 0;
+}
+
+.active-img {
+    border-radius: 10%;
+    z-index: 1;
+    position: absolute;
+}

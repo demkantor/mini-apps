@@ -49,7 +49,7 @@ class Nav extends Component {
                     </span> 
                 </Link>
                 <Link to="/counter" className="navbar__link" onClick={this.close}>
-                    Counter
+                    Simple Counter
                     <span className="material-icons">
                         addchart
                     </span> 
@@ -127,7 +127,7 @@ class Nav extends Component {
                     </span> 
                 </Link>
                 <Link to="/slider" className="navbar__link" onClick={this.close}>
-                    Slider
+                    Carousel Slider
                     <span className="material-icons">
                         linear_scale
                     </span> 

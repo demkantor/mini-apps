@@ -78,7 +78,7 @@ class Reviews extends Component {
                     {/* review */}
                     <article className="review">
                         <div className="img-container">
-                            <img src={this.state.reviews[this.state.current].img} id="person-img" alt={this.state.reviews[this.state.current].name}/>
+                            <img src={this.state.reviews[this.state.current].img} id="person-img" width="150px" alt={this.state.reviews[this.state.current].name}/>
                         </div>
                         <h4 id="author">
                             {this.state.reviews[this.state.current].name}

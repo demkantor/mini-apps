@@ -10,7 +10,7 @@ class Home extends Component {
             {name: 'countdown timer', img: 'images/timer.png', gif: 'images/timer.gif', link: 'timer'},
             {name: 'counter demo', img: 'images/count.png', gif: 'images/count.gif', link: 'counter'},
             {name: 'image slider', img: 'images/slide.png', gif: 'images/slide.gif', link: 'slider'},
-            {name: 'login form', img: 'images/slide.png', gif: 'images/slide.gif', link: 'login'},
+            {name: 'login form', img: 'images/login.png', gif: 'images/login.gif', link: 'login'},
             {name: 'Lorem ipsum generator', img: 'images/ipsum.png', gif: 'images/ipsum.gif', link: 'lorem'},
             {name: 'modal demo', img: 'images/modal.png', gif: 'images/modal.gif', link: 'modal'},
             {name: 'navbar demo', img: 'images/navbar.png', gif: 'images/navbar.gif', link: 'navbar'},

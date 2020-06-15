@@ -45,6 +45,7 @@ Variables
   --clr-secondary: hsla(182, 63%, 54%);
   --clr-gold: #c59d5f;
   --clr-black: #222;
+  --text-color: #afafaf;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;

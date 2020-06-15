@@ -7,6 +7,7 @@ import Nav from './Nav/Nav';
 
 import ColorFlip from './ColorFlip/ColorFlip';
 import Counter from './Counter/Counter';
+import Login from './Login/Login';
 import LoremIpsum from './LoremIpsum/LoremIpsum';
 import Menu from './Menu/Menu';
 import Modal from './Modal/Modal';
@@ -34,6 +35,7 @@ class App extends Component {
 
               <Route exact path="/color-flipper" component={ColorFlip}/>
               <Route exact path="/counter" component={Counter}/>
+              <Route exact path="/login" component={Login}/>
               <Route exact path="/lorem" component={LoremIpsum}/>
               <Route exact path="/menu" component={Menu}/>
               <Route exact path="/modal" component={Modal}/>

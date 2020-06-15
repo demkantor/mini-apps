@@ -7,20 +7,21 @@ class Home extends Component {
     state = {
         projects: [
             {name: 'color flipper', img: 'images/flip.png', gif: 'images/flip.gif', link: 'color-flipper'},
+            {name: 'countdown timer', img: 'images/timer.png', gif: 'images/timer.gif', link: 'timer'},
             {name: 'counter demo', img: 'images/count.png', gif: 'images/count.gif', link: 'counter'},
-            {name: 'review cards', img: 'images/review.png', gif: 'images/review.gif', link: 'reviews'},
-            {name: 'navbar demo', img: 'images/navbar.png', gif: 'images/navbar.gif', link: 'navbar'},
-            {name: 'sidebar demo', img: 'images/sidebar.png', gif: 'images/sidebar.gif', link: 'sidebar'},
-            {name: 'modal demo', img: 'images/modal.png', gif: 'images/modal.gif', link: 'modal'},
-            {name: 'questions page', img: 'images/item-9.jpeg', gif: 'images/question.gif', link: 'questions'},
-            {name: 'restraunt menu', img: 'images/item-9.jpeg', gif: 'images/menu.gif', link: 'menu'},
-            {name: 'video project', img: 'images/item-9.jpeg', gif: 'images/video.gif', link: 'video'},
-            {name: 'scroll demo', img: 'images/item-9.jpeg', gif: 'images/scroll.gif', link: 'scroll'},
-            {name: 'tabs project', img: 'images/item-9.jpeg', gif: 'images/tab.gif', link: 'tabs'},
-            {name: 'countdown timer', img: 'images/item-9.jpeg', gif: 'images/timer.gif', link: 'timer'},
+            {name: 'image slider', img: 'images/slide.png', gif: 'images/slide.gif', link: 'slider'},
+            {name: 'login form', img: 'images/slide.png', gif: 'images/slide.gif', link: 'login'},
             {name: 'Lorem ipsum generator', img: 'images/ipsum.png', gif: 'images/ipsum.gif', link: 'lorem'},
-            {name: 'shopping list', img: 'images/item-9.jpeg', gif: 'images/shop.gif', link: 'shop'},
-            {name: 'image slider', img: 'images/item-9.jpeg', gif: 'images/slide.gif', link: 'slider'}
+            {name: 'modal demo', img: 'images/modal.png', gif: 'images/modal.gif', link: 'modal'},
+            {name: 'navbar demo', img: 'images/navbar.png', gif: 'images/navbar.gif', link: 'navbar'},
+            {name: 'questions page', img: 'images/question.png', gif: 'images/question.gif', link: 'questions'},
+            {name: 'restraunt menu', img: 'images/menu.png', gif: 'images/menu.gif', link: 'menu'},
+            {name: 'review cards', img: 'images/review.png', gif: 'images/review.gif', link: 'reviews'},
+            {name: 'scroll demo', img: 'images/scroll.png', gif: 'images/scroll.gif', link: 'scroll'},
+            {name: 'shopping list', img: 'images/shop.png', gif: 'images/shop.gif', link: 'shop'},
+            {name: 'sidebar demo', img: 'images/sidebar.png', gif: 'images/sidebar.gif', link: 'sidebar'},
+            {name: 'tabs project', img: 'images/tab.png', gif: 'images/tab.gif', link: 'tabs'},
+            {name: 'video project', img: 'images/video.png', gif: 'images/video.gif', link: 'video'},
         ]
     };
 

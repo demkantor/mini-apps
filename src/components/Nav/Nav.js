@@ -42,10 +42,22 @@ class Nav extends Component {
                         home
                     </span>   
                 </Link>
+                <Link to="/slider" className="navbar__link" onClick={this.close}>
+                    Carousel Slider
+                    <span className="material-icons">
+                        linear_scale
+                    </span> 
+                </Link>
                 <Link to="/color-flipper" className="navbar__link" onClick={this.close}>
                     Color Flipper
                     <span className="material-icons">
                         invert_colors
+                    </span> 
+                </Link>
+                <Link to="/timer" className="navbar__link" onClick={this.close}>
+                    Countdown Timer
+                    <span className="material-icons">
+                        timer
                     </span> 
                 </Link>
                 <Link to="/counter" className="navbar__link" onClick={this.close}>
@@ -54,10 +66,22 @@ class Nav extends Component {
                         addchart
                     </span> 
                 </Link>
-                <Link to="/reviews" className="navbar__link" onClick={this.close}>
-                    Review Cards
+                <Link to="/login" className="navbar__link" onClick={this.close}>
+                    Login Form
                     <span className="material-icons">
-                        rate_review
+                        login
+                    </span> 
+                </Link>
+                <Link to="/lorem" className="navbar__link" onClick={this.close}>
+                    Lorem Ipsum
+                    <span className="material-icons">
+                        create
+                    </span> 
+                </Link>
+                <Link to="/modal" className="navbar__link" onClick={this.close}>
+                    Modal Project
+                    <span className="material-icons">
+                        launch
                     </span> 
                 </Link>
                 <Link to="/navbar" className="navbar__link" onClick={this.close}>
@@ -72,12 +96,6 @@ class Nav extends Component {
                         more_vert
                     </span> 
                 </Link>
-                <Link to="/modal" className="navbar__link" onClick={this.close}>
-                    Modal Project
-                    <span className="material-icons">
-                        launch
-                    </span> 
-                </Link>
                 <Link to="/questions" className="navbar__link" onClick={this.close}>
                     General Questions
                     <span className="material-icons">
@@ -90,10 +108,10 @@ class Nav extends Component {
                         menu_book
                     </span> 
                 </Link>
-                <Link to="/video" className="navbar__link" onClick={this.close}>
-                    Video Project
+                <Link to="/reviews" className="navbar__link" onClick={this.close}>
+                    Review Cards
                     <span className="material-icons">
-                        movie
+                        rate_review
                     </span> 
                 </Link>
                 <Link to="/scroll" className="navbar__link" onClick={this.close}>
@@ -108,28 +126,16 @@ class Nav extends Component {
                         tab
                     </span> 
                 </Link>
-                <Link to="/timer" className="navbar__link" onClick={this.close}>
-                    Countdown Timer
+                <Link to="/video" className="navbar__link" onClick={this.close}>
+                    Video Project
                     <span className="material-icons">
-                        timer
-                    </span> 
-                </Link>
-                <Link to="/lorem" className="navbar__link" onClick={this.close}>
-                    Lorem Ipsum
-                    <span className="material-icons">
-                        create
+                        movie
                     </span> 
                 </Link>
                 <Link to="/shop" className="navbar__link" onClick={this.close}>
                     Shopping List
                     <span className="material-icons">
                         add_shopping_cart
-                    </span> 
-                </Link>
-                <Link to="/slider" className="navbar__link" onClick={this.close}>
-                    Carousel Slider
-                    <span className="material-icons">
-                        linear_scale
                     </span> 
                 </Link>
             </div>
